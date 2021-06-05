@@ -1,6 +1,6 @@
 .footer {
     background: linear-gradient(#0b0014d3, #0b0014d3 100%), url("../resources/oriental-montains.jpg");
-    
+    background-attachment: fixed;
     background-size: cover;
     flex-direction: row;
     justify-content: space-evenly;
