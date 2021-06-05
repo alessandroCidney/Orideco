@@ -1,0 +1,26 @@
+.contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    min-width: 100%;
+    min-height: 10vh;
+    margin-bottom: 10vh;
+    font-size: 30pt;
+}
+
+.contact i {
+    font-size: 70pt;
+    width: 30%;
+}
+
+.contact a:hover {
+    font-weight: bolder;
+}
+
+.contact-title {
+    font-size: 30pt;
+    height: 20%;
+    margin-bottom: 10vh;
+}

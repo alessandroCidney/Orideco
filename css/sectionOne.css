@@ -1,0 +1,26 @@
+.section-one {
+    background: linear-gradient(rgba(245, 233, 226, 0.795), rgba(245, 233, 226, 0.795) 100%), url("../resources/room.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-one-text {
+    min-width: 50vw;
+    max-width: 50vw;
+    height: 60vh;
+    font-size: 100px;
+    text-align: left;
+    font-weight: normal;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.section-one-div-image {
+    min-width: 40vw;
+    max-width: 40vw; 
+}
+
+.section-one-image {
+    width: 100%;
+}

@@ -1,0 +1,62 @@
+.footer {
+    background: linear-gradient(#0b0014d3, #0b0014d3 100%), url("../resources/oriental-montains.jpg");
+    
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 80vh;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 80%;
+    min-width: 30%;
+}
+
+.footer-text {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    flex-direction: column;
+}
+
+.footer-image {
+    min-width: 40%;
+    min-height: 70%;
+    background: url("../resources/plane-1-600.png") no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.realy-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    background-color: var(--color-xiketic);
+    color: #ffffff;
+}
+
+.realy-footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+}
+
+.realy-footer-list a:hover {
+    font-weight: bolder;
+}

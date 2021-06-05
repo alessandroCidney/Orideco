@@ -1,0 +1,17 @@
+.section-four-text {
+    min-width: 30%;
+    min-height: 50vh;
+    font-size: 50pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    flex-direction: row;
+}
+
+.section-four-image {
+    min-width: 30%;
+    min-height: 60vh;
+    background: url("../resources/bird-1.png") no-repeat;
+    background-size: contain;
+}
